@@ -94,7 +94,7 @@ function wrongNumberOfArgs (expected, got) {
 
 function moreThanOneError (schema) {
   return newException('ETOOMANYERRORTYPES',
-    'Only one error type per argument signature is allowed, more than one found in "' + schema + '"')
+    'Only one xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx error type per argument signature is allowed, more than one found in "' + schema + '"')
 }
 
 function newException (code, msg) {
